@@ -1,4 +1,22 @@
 .container {
-  background: linear-gradient(to top right, #99ff66 0%, #0033cc 100%);
-  height: 100vh;;
+  /* background: linear-gradient(to top right, #99ff66 0%, #0033cc 100%); */
+  height: 100vh;
+  background: url('https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.weather_info {
+  padding: 10%;
+  margin: 0;
+  top: 70%;
+  left: 50%;
+  width: 50%;
+  position: absolute;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.weather_info p {
+  color: #FFF;
+  font-size: 1.5em;
 }
