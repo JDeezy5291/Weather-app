@@ -23,7 +23,7 @@ code {
 }
 form {
   background-color: #3c3c3c;
-  padding: 10% 5% 20% 5%;
+  padding: 10%;
   margin: 0;
   top: 30%;
   left: 50%;
@@ -39,6 +39,9 @@ h1 {
 }
 h1, form {
   text-align: center;
+}
+input {
+  width: 100%;
 }
 input, button {
   font-size: 1.3em;
