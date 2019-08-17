@@ -35,6 +35,11 @@ form {
 }
 h1 {
   color: #FFFFFF;
-  text-align: center;
   font-size: 2em;
+}
+h1, form {
+  text-align: center;
+}
+input, button {
+  font-size: 1.3em;
 }
